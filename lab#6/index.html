@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semenkiv</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li><span data-section="Rome">Rome</span></li>
+            <li>
+                <div class="dropdown">
+                    <div class="Stockholm">Stockholm</div>
+                    <div class="dropdown-content">
+                        <a href="#Stockholm/Globe_Arena">Globe Arena</a>
+                        <a href="#Stockholm/StatueOfABoy">Statue of a boy</a>
+                        <a href="#Stockholm/Royal_Palace">Royal Palace</a>
+                </div>
+              </div>
+            </li>
+            <li><span data-section="Kyiv">Kyiv</span></li>
+        </ul>
+    </div>
+
+    <div class="fullpage">
+
+        <div data-index="0" data-anchor="Rome" class="section">
+            <div class="bg" style="background-image: url(img/Rome.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Rome</h2>
+                <p class="text">Рим - столица и крупнейший город Италии (по населению агломерации уступает Милану и Неаполю). Административный центр области Лацио и одноимённой территориальной единицы Рим, приравненной к провинции. Расположен на реке Тибр.</p>
+            </div>
+        </div>
+
+        <div data-index="1" class="section" data-anchor="Stockholm" id="section2">
+            
+            <div class="slide" data-anchor="Globe_Arena">
+                <div class="bg" style="background-image: url(img/GlobeArena.jpg)"></div>
+                <div class="content">
+                    <h2 class="title">Globe Arena</h2>
+                    <p class="text">Глобен Арена-Спортивный стадион города, который спроектирован в оригинальной сферической форме, является одним из сооружений проекта «Шведская солнечная система». Суть данного замысла в том, что всюду по стране возводятся сферические сооружения, изображающие планеты нашей солнечной системы. Глобен Арена символизирует солнце. Помимо спортивных состязаний, в этом здании проводятся разные концерты и другие масштабные мероприятия. Размеры сооружения впечатляют — диаметр составляет 110 метров, а на его 85-метровую высоту можно даже подняться на специальном фуникулёре.</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="StatueOfABoy">
+                <div class="bg" id="bg2" style="background-image: url(img/Boy.png)"></div>
+                <div class="content">
+                    <h2 class="title">Statue оf а Boy</h2>
+                    <p class="text">Мальчик, смотрящий на Луну , или Железный мальчик  — памятник в Старом городе Стокгольма, изображающий сидящего мальчика, обнявшего колени. Созданный скульптором Лиссом Эрикссоном и установленный в 1967 году, памятник стал самым маленьким в Швеции: его высота составляет около 15 см. Известен также под народным прозвищем Улле</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="Royal_Palace">
+                <div class="bg" id="bg3"style="background-image: url(img/RoyalPalace.jpg) "></div>
+                <div class="content">
+                    <h2 class="title">Royal Palace</h2>
+                    <p class="text">Стокгольмский королевский дворец  — официальная резиденция шведских монархов на парадной набережной острова Стадхольмен в центре Стокгольма.В Средние века на месте дворца высился Стокгольмский замок, заложенный легендарным ярлом, для защиты водного пути из Балтики в залив Меларен (в дальнейшем, с понижением уровня моря, залив превратился в озеро). Со строительства этого замка началась история города Стокгольма.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-index="2" data-anchor="Kyiv" class="section">
+            <div class="bg" style="background-image: url(img/Kyiv.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Kyiv</h2>
+                <p class="text">Киев  — столица и крупнейший город Украины, город со специальным статусом. Расположен на реке Днепр, является центром Киевской агломерации. Отдельная административно-территориальная единица Украины; культурный, политический, социально-экономический, транспортный, научный и религиозный центр страны. Киев — административный центр Киевской области, хотя и не входит в её состав, имея особый правовой статус. Расположен на севере Украины.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
